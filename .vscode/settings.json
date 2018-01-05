@@ -1,0 +1,5 @@
+{
+  "terminal.integrated.env.osx": {
+    "PATH": "/Users/romantic/.platformio/penv/bin:/Users/romantic/.rvm/gems/ruby-2.4.1/bin:/Users/romantic/.rvm/gems/ruby-2.4.1@global/bin:/Users/romantic/.rvm/rubies/ruby-2.4.1/bin:/Users/romantic/.nvm/versions/node/v6.11.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/romantic/.rvm/bin"
+  }
+}
