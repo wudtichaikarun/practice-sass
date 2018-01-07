@@ -1,7 +1,8 @@
 # practice-sass
 
 ### install project
-```//clone this project
+```
+//clone this project
 git clone git@github.com:wudtichaikarun/practice-sass.git
 
 // install node_modules
