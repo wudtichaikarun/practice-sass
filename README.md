@@ -1,12 +1,11 @@
 # practice-sass
 
 ### install project
-```
-//clone this project
+```//clone this project
+git clone git@github.com:wudtichaikarun/practice-sass.git
 
 // install node_modules
 npm install
-
 ```
 
 ### compile sass to css
@@ -15,10 +14,12 @@ npm install
 npm run compile:sass
 ```
 
-### use auto reload page
+### auto reload page
 ```
 //install live-sever
 npm install live-sever -g
 // if Error! : maybe you need to use sudo
 sudo npm install live-server -g
+//use live-sever
+line-server
 ```
