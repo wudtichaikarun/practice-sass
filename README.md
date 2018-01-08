@@ -1,5 +1,8 @@
 # practice-sass
 
+### Credit the original author by Jonas Schmedtmann
+[Advanced CSS and Sass: Take Your CSS to the Next Level!](https://www.udemy.com/advanced-css-and-sass/).
+
 ### install project
 ```
 //clone this project
