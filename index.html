@@ -348,7 +348,15 @@
 
   <footer class="footer">
     <div class="footer__logo-box">
-      <img src="images/logo-green-2x.png" alt="Full logo" class="footer__logo">
+
+      <picture>
+        <!-- image for mobile [1x for low, 2x for hight  resolution]-->
+        <source srcset="images/logo-green-small-1x.png 1x, images/logo-green-small-2x.png 2x" 
+                media="(max-width: 37.5em)"> 
+        <!-- image for tablet and desktop [1x for low, 2x for hight  resolution] -->
+        <img srcset="images/logo-green-1x.png 1x, images/logo-green-2x.png 2x" alt="Full logo" class="footer__logo">
+      </picture>
+
     </div>
 
     <div class="row">
