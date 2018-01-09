@@ -5,8 +5,17 @@
 
   &:not(:last-child) {
     margin-bottom: $vertical-gap;
+
+    @include respond(tab-port) {
+      margin-bottom: $vertical-gap-small; 
+    }
   }
 
+  @include respond(tab-port) {
+    max-width: 50rem;
+    padding: 0 3rem;
+  }
+  
   @include clearfix;
 
   // select all of class start with col-
@@ -15,6 +24,16 @@
 
     &:not(:last-child) {
       margin-right: $horizontal-gap;
+
+      @include respond(tab-port) {
+        margin-right: 0;
+        margin-bottom: $vertical-gap-small;
+      }
+    }
+
+    @include respond(tab-port) {
+      width: 100% !important;
+      margin-right: 0;
     }
   }
 
