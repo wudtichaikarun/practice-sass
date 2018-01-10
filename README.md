@@ -4,7 +4,7 @@
 [Advanced CSS and Sass: Take Your CSS to the Next Level!](https://www.udemy.com/advanced-css-and-sass/).
 
 ### Example project
-*[practice-sass](https://practice-sass.firebaseapp.com/)
+[practice-sass](https://practice-sass.firebaseapp.com/)
 
 ### install project
 ```
