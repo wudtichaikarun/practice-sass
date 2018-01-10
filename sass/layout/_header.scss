@@ -14,12 +14,16 @@
   use big image when [1 or 2 ]
     1 (check min-resolutio if >= 192dpi) and (check screen if width >= 600px) -->  600px/16px = 37.5em
     2 check screen if width >= 2000px --> 2000px/16px = 125em
+
+    Note : min-resolution: 192dpi don't work in safari
+    use (-webkit-min-device-pixel-ratio: 2 ) and (min-width: 37.5em)  instead
+    of use tools like Koala run auto prefix
   */
   @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
     background-image: linear-gradient(
       to right bottom, 
       rgba($color-primary-light, 0.8),
-      rgba($color-primary-dark, 0.8)),  
+      rgba($color-primary-dark, 0.8)), 
       url(../images/hero.jpg); 
   }
 
