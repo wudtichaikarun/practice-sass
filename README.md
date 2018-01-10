@@ -12,18 +12,15 @@ git clone git@github.com:wudtichaikarun/practice-sass.git
 npm install
 ```
 
-### compile sass to css
+### develop mode
 ```
-// compile sass
-npm run compile:sass
+// edit update delete at sass/*
+npm run start
 ```
 
-### auto reload page
+### compile,concat,prefix,compress scss to one file -> css/main.css
 ```
-//install live-sever
-npm install live-sever -g
-// if Error! : maybe you need to use sudo
-sudo npm install live-server -g
-//use live-sever
-live-server
+// build sass
+npm run build:css
 ```
+
