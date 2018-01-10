@@ -1365,7 +1365,8 @@ body {
   width: 100%; }
 
 .navigation__item {
-  margin: 1rem; }
+  margin: 1rem;
+  overflow: hidden; }
 
 .navigation__link:link, .navigation__link:visited {
   display: inline-block;
