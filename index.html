@@ -77,22 +77,25 @@
                     inspect img =  171px
                     vw = 171/900 px
                        = 0.19 ≈ 20% 
-                       = (max-width: 900px) 20vw -->
+                       = (max-width: 900px) 20vw 
+                  chage px to em 
+                       900px/16px = 56.25em 
+                       600px/16px = 37.5em -->
             <img  alt="Photo 1" 
                   srcset="images/nat-1.jpg 300w, images/nat-1-large.jpg 1000w"
-                  sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                  sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                   class="composition__photo composition__photo--p1"
                   src="images/nat-1-large.jpg "> <!-- [src] case browser not suport srcset-sizes -->
 
             <img  alt="Photo 2"
                   srcset="images/nat-2.jpg 300w, images/nat-2-large.jpg 1000w"
-                  sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                  sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                   class="composition__photo composition__photo--p2"
                   src="images/nat-2-large.jpg "> <!-- [src] case browser not suport srcset-sizes -->
             
             <img  alt="Photo 3" 
                   srcset="images/nat-3.jpg 300w, images/nat-3-large.jpg 1000w"
-                  sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                  sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                   class="composition__photo composition__photo--p3"
                   src="images/nat-3-large.jpg "> <!-- [src] case browser not suport srcset-sizes -->
           </div>
