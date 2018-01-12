@@ -18,7 +18,7 @@ npm install
 ### develop mode
 ```
 // edit update delete at sass/*
-npm start
+npm run start
 ```
 
 ### compile,concat,prefix,compress scss to one file -> css/main.css
